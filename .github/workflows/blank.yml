@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Costa Rica Empowerment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #011d14;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1a1a1a; /* Updated background color */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #fff; /* Changed text color to white */
+        }
+
+        h2 {
+            border-bottom: 2px solid #fff; /* Changed border color to white */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        ul,
+        ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            color: #fff; /* Changed text color to white */
+        }
+
+        ul li,
+        ol li {
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #fff; /* Changed text color to white */
+        }
+
+        #media {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        #media img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 150px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        #background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        /* Hide controls for the background video */
+        #background-video::-webkit-media-controls {
+            display: none !important;
+        }
+
+        #background-video::-webkit-media-controls-enclosure {
+            display: none !important;
+        }
+
+        #background-video::-webkit-media-controls-panel {
+            display: none !important;
+        }
+
+        #background-video::-webkit-media-controls-play-button {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>GOD We are begging for wisdom to make Costa Rica a country again</h1>
+    </div>
+
+    <div id="content">
+        <h2>Empresas Unidas</h2>
+
+        <div>
+            <a href="https://www.youtube.com/watch?v=c2LxAThURS8&pp=ygUXM0QgbnVldmFzIHRlY2hub2xvZ2lhcyA%3D" target="_blank" class="button">Herramientas</a>
+            <a href="https://www.youtube.com/watch?v=uTpe1A0ifIU&pp=ygUUTXVlYmxlcyBpbm5vdmFkb3JlcyA%3D" target="_blank" class="button">Metas</a>
+            <a href="https://www.youtube.com/watch?v=8zSjyk96ggM&list=PLXaMdWFW_yNNYS1RYYUVhlFLvKXHGVtNd" target="_blank" class="button">Metodología</a>
+            <a href="https://www.youtube.com/watch?v=qYPf_mRlHKI&pp=ygUlRXhwZWN0YWN0aXZhcyBkZSBhdmFuemUgdGVjaG5vbG9naWNvcw%3D%3D" target="_blank" class="button">Expectativas</a>
+        </div>
+
+        <div id="introduction">
+            <h2>Talento humano</h2>
+            <p>As Costa Rica moves forward in its quest for greatness, it's imperative to nurture and empower its human talent. Here are some key attributes:</p>
+            <ul]====================================================================gt-4F
+                <li>Innovative problem-solving skills</li>
+                <li>Strong collaborative spirit</li>
+                <li>Adaptability to change</li>
+                <li>Continuous learning mindset</li>
+            </ul>
+            <p>By investing in the development of our human capital, we can drive innovation, foster prosperity, and create a brighter future for all Costa Ricans.</p>
+        </div>
+
+        <div id="Familia_me_acompañan">
+            <h2>Familia me acompañan</h2>
+            <h3>Challenges Facing Costa Rica</h3>
+            <ol>
+                <li>Economic inequality</li>
+                <li>Environmental degradation</li>
+                <li>Social disparities</li>
+            </ol>
+            <h3>Potential Solutions</h3>
+            <p>Addressing these challenges requires:</p>
+            <ul>
+                <li>Implementing inclusive economic policies</li>
+                <li>Promoting sustainable environmental practices</li>
+                <li>Enhancing access to education and healthcare</li>
+            </ul>
+        </div>
+
+        <div id="media">
+            <iframe id="background-video" width="560" height="315" src="https://www.youtube.com/embed/JgbLVr1oLgA?autoplay=1&loop=1&playlist=JgbLVr1oLgA&mute=1" frameborder="0" allowfullscreen></iframe>
+            <h2>Media</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/1024px-Flag_of_Costa_Rica.svg.png" alt="Costa Rica Flag" />
+            <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+        </div>
+    </div>
+</body>
+
+</html>
